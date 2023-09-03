@@ -33,7 +33,7 @@ p.weather-item {
 
   .city{
     font-size:150px;
-    margin-bottom:90px;
+    margin-bottom:20px;
   }
 
   .weather-container {
@@ -46,22 +46,22 @@ p.weather-item {
     text-align: center;
   }
 
-  
   .japanese-city{
     font-size:70px;
-    margin-bottom:90px;
+    margin-bottom:40px;
   }
 
 /* Media query for responsiveness */
 @media (max-width: 768px) {
-    .city{
+      .city{
         font-size:40px;
-        margin-bottom:30px;
+        margin-top:30px;
+        margin-bottom:10px;
       }
 
       .japanese-city{
-        font-size:35px;
-        margin-bottom:45px;
+        font-size:20px;
+        margin-bottom:0px;
       }
     
     .weather-container {
