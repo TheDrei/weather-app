@@ -9,6 +9,7 @@ At the home page, we can easily see the weather information, suggested accomodat
 <ul>
     <li>Laravel version 10.21.0 (PHP)</li>
     <li>Vue.js v3.2.36 (JavaScript)</li>
+    <li>HTML and CSS, Bootstrap</li>
     <li>OpenWeather API</li>
     <li>Geoapify API</li>
 </ul>
