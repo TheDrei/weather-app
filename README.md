@@ -6,10 +6,9 @@ This UI/UX code implementation is the best as it effectively utilizes the reusab
 At the home page, we can easily see the weather information, accomodations, and suggested tourist spots with the addresses at a glance. This makes it easy for foreign tourists to get an idea of where they want to go.
 
 ## Screenshots
-<center>
 ![Weather App Screenshot](screenshots/weather-app-screenshot-1.jpg)
 ![Weather App Screenshot](screenshots/weather-app-screenshot-2.jpg)
-</center>
+
 
 ## Getting Started
 To get started with the Weather App on your local machine, follow these steps:
