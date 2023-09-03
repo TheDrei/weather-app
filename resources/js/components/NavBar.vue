@@ -36,11 +36,17 @@
   </template>  
 
 <script>
-
 export default {
   methods: {
     handleLinkClick(lat, lon, city, japaneseCity) {
+      // Emit the event as you were doing
       this.$emit('city-selected', { lat, lon, city, japaneseCity });
+
+      // Close the navbar when a navbar item is clicked
+      const navbar = document.querySelector('.navbar-collapse');
+      if (navbar.classList.contains('show')) {
+        navbar.classList.remove('show');
+      }
     },
   },
 };
