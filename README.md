@@ -1,5 +1,5 @@
 ## About the Weather App
-Weather App is a web application built using Laravel v10.21.0 (PHP framework) and Vue.js v3.2.36 (JavaScript framework) that allows users to check the current weather forecast for Tokyo, Yokohama, Kyoto, Osaka, Sapporo, and Nagoya. It also provides suggested accomodations/hotels and tourist spots. Specifically, it aims to provide travel information of Japan for foreign tourists visiting Japan for the first time.
+Weather App is a web application built using Laravel v10.21.0 (PHP framework) and Vue.js v3.2.36 (JavaScript framework) that allows users to check the current weather forecast for some cities in Japan (OpenWeather API). It also provides suggested accomodations/hotels and tourist spots with the help of Geoapify Places API. Specifically, it aims to provide travel information of Japan for foreign tourists visiting Japan for the first time.
 
 This UI/UX code implementation is the best as it effectively utilizes the reusability of API components. Each of the six cities in Japan utilizes only one component for the Weather, Places (Accommodations), and Tourism (Tourist Spots) APIs, demonstrating the full potential of Vue.js. 
 
@@ -31,7 +31,7 @@ To get started with the Weather App on your local machine, follow these steps:
 3. Install PHP dependencies: composer install 
 4. Install JavaScript dependencies: npm install 
 5. Run the application: npm run dev.
-6. Access the App:Open your web browser and go to http://localhost:8000 to access the Weather App.
+6. Access the App:Open your web browser and go to http://localhost/weather-app/public/ to access the Weather App.
 
 ## Image Sources 
 Tokyo - <a href="https://www.freepik.com/free-photo/cherry-blossoms-spring-chureito-pagoda-fuji-mountain-japan_10824511.htm#query=tokyo&position=0&from_view=search&track=sph">Image by tawatchai07</a> on Freepik
