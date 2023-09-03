@@ -1,0 +1,97 @@
+img {
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the image horizontally and vertically */
+    background-repeat: no-repeat; /* Prevent image from repeating */
+}
+
+/* Style the Carousel container */
+.carousel-container {
+  position: relative; /* Relative positioning for the container */
+}
+
+/* Style the weather overlay with transparency */
+.weather-overlay {
+    position: absolute; /* Absolute positioning */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    z-index: 1; /* Ensure it's above the Carousel */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+  }
+
+p.weather-item {
+    font-size: 21px;
+    text-align:center;
+    color: white !important;
+  }
+
+  .city{
+    font-size:150px;
+    margin-bottom:90px;
+  }
+
+  .weather-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%; /* Ensure the container takes the full height of its parent */
+    padding: 20px; /* Add padding for spacing */
+    text-align: center;
+  }
+
+  
+  .japanese-city{
+    font-size:70px;
+    margin-bottom:90px;
+  }
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+    .city{
+        font-size:40px;
+        margin-bottom:30px;
+      }
+
+      .japanese-city{
+        font-size:35px;
+        margin-bottom:45px;
+      }
+    
+    .weather-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 10%; /* Ensure the container takes the full height of its parent */
+        padding: 20px; /* Add padding for spacing */
+        text-align: center;
+        
+    }
+
+    p.weather-item {
+        font-size: 14px;
+        text-align:center;
+        color: white !important;
+      }
+    
+
+    .weather-overlay {
+        position: absolute; /* Absolute positioning */
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+        z-index: 1; /* Ensure it's above the Carousel */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        pointer-events: none;
+      }
+  }
