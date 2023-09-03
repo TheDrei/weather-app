@@ -12,7 +12,7 @@ At the home page, we can easily see the weather information, accomodations, and 
 
 ## Getting Started
 To get started with the Weather App on your local machine, follow these steps:
-1. Clone the repository: git clone https://github.com/yourusername/weather-app.git
+1. Clone the repository: git clone https://github.com/TheDrei/weather-app.git
 2. Navigate to the project directory: cd weather-app
 3. Install PHP dependencies: composer install 
 4. Install JavaScript dependencies: npm install 
