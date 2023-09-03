@@ -5,6 +5,14 @@ This UI/UX code implementation is the best as it effectively utilizes the reusab
 
 At the home page, we can easily see the weather information, suggested accomodations, and tourist spots with the addresses at a glance. This makes it easy for foreign tourists to get an idea of where they want to go.
 
+## Technologies Used
+<ul>
+    <li>Laravel version 10.21.0 (PHP)</li>
+    <li>Vue.js v3.2.36 (JavaScript)</li>
+    <li>OpenWeather API</li>
+    <li>Geoapify API</li>
+</ul>
+
 ## Screenshots
 
 <p align="center">
@@ -14,7 +22,6 @@ At the home page, we can easily see the weather information, suggested accomodat
 <p align="center">
   <img src="screenshots/weather-app-screenshot-2.jpg" alt="Weather App Screenshot 2">
 </p>
-
 
 
 ## Getting Started
