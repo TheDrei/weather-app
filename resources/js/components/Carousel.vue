@@ -1,11 +1,13 @@
 <template>
+   
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li v-for="(item, index) in carouselItems" :key="index" :data-target="'#carouselExampleIndicators'" :data-slide-to="index" :class="{ 'active': index === 0 }"></li>
     </ol>
     <div class="carousel-inner">
+      
       <div v-for="(item, index) in carouselItems" :key="index" :class="['carousel-item', { 'active': index === 0 }]">
-        <img :src="item.image" class="d-block w-100" :alt="item.alt">
+        <img :src="getCityImage(selectedCity.city)" class="d-block w-100" :alt="selectedCity.city">
       </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -21,31 +23,41 @@
 
 <script>
 export default {
+  props: {
+    selectedCity: Object, // Expect selectedCity as a prop
+  },
+  methods: {
+    getCityImage(cityName) {
+      const citySlug = cityName.toLowerCase().replace(/\s/g, '-');
+      const basePath = '../resources/assets/';
+      return `${basePath}${citySlug}.jpg`;
+    },
+  },
   data() {
     return {
       carouselItems: [
         {
-          image: '../resources/assets/tokyo.jpg',
+          image: '../resources/assets/Tokyo.jpg',
           alt: 'Tokyo',
         },
         {
-          image: '../resources/assets/yokohama.jpg',
+          image: '../resources/assets/Yokohama.jpg',
           alt: 'Yokohama',
         },
         {
-          image: '../resources/assets/kyoto.jpg',
+          image: '../resources/assets/Kyoto.jpg',
           alt: 'Kyoto',
         },
         {
-          image: '../resources/assets/osaka.jpg',
+          image: '../resources/assets/Osaka.jpg',
           alt: 'Osaka',
         },
         {
-          image: '../resources/assets/sapporo.jpg',
+          image: '../resources/assets/Sapporo.jpg',
           alt: 'Sapporo',
         },
         {
-          image: '../resources/assets/nagoya.jpg',
+          image: '../resources/assets/Nagoya.jpg',
           alt: 'Nagoya',
         },
       ],

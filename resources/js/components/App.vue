@@ -2,25 +2,32 @@
     <div>
       <NavBar @city-selected="selectCity" />
       <div class="carousel-container">
-        <Carousel />
+        <Carousel :selectedCity="selectedCity" />
         <Weather
           v-if="showWeather"
           class="weather-overlay"
           :selectedCity="selectedCity" 
         />
       </div>
+      <Places :selectedCity="selectedCity" />
+      <Tourism :selectedCity="selectedCity" />
+      
     </div>
   </template>
   
   <script>
   import Carousel from './Carousel.vue';
   import Weather from './Weather.vue';
+  import Places from './Places.vue';
+  import Tourism from './Tourism.vue';
   import NavBar from './NavBar.vue';
   
   export default {
     components: {
       Carousel,
       Weather,
+      Places,
+      Tourism,
       NavBar,
     },
     data() {
