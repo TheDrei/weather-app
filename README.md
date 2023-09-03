@@ -16,6 +16,7 @@ At the home page, we can easily see the weather information, suggested accomodat
 </p>
 
 
+
 ## Getting Started
 To get started with the Weather App on your local machine, follow these steps:
 1. Clone the repository: git clone https://github.com/TheDrei/weather-app.git
