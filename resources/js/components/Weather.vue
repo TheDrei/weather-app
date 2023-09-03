@@ -1,15 +1,14 @@
 <template>
   <div class="weather-container">
-  <p v-if="weatherData" class="weather-item">
-  <h1 class="city">{{ selectedCity.city }}</h1>
-  <h4 class="japanese-city">{{ selectedCity.japaneseCity }}</h4>
-  <h4>Weather Information</h4>
-  Temperature: {{ weatherData.list[0].main.temp }}°C <br />
-  Description: {{ weatherData.list[0].weather[0].description }} <br />
-  Humidity: {{ weatherData.list[0].main.humidity }}%
-</p>
-<!-- fsq36Yal2KA4n6Yz3STqIHAZfDi7dx0jhyTuOc4AZgUAAns= -->
-  <p v-if="error">{{ error }}</p>
+    <p v-if="weatherData" class="weather-item">
+    <h1 class="city">{{ selectedCity.city }}</h1>
+    <h4 class="japanese-city">{{ selectedCity.japaneseCity }}</h4>
+    <h4>Weather Information</h4>
+    <span class="">Temperature:</span> {{ weatherData.list[0].main.temp }}°C <br />
+    <span class="">Description:</span>  {{ weatherData.list[0].weather[0].description }} <br />
+    <span class="">Humidity:</span>  {{ weatherData.list[0].main.humidity }}%
+    </p>
+    <p v-if="error">{{ error }}</p>
   </div>
 </template>
 <script>

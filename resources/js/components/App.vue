@@ -10,7 +10,36 @@
         />
       </div>
       <Places :selectedCity="selectedCity" />
-      <Tourism :selectedCity="selectedCity" />
+      <Tourism 
+        :selectedCity="selectedCity" 
+      />
+
+      <!-- Footer -->
+      <footer class="bg-light text-black p-5">
+        <div class="container">
+            <div class="row">
+            <div class="col-md-4">
+                <h5>About the Weather App</h5>
+                <p>This page aims to provide travel information of Japan for foreign tourists visiting Japan for the first time.</p>
+            </div>
+            <div class="col-md-4">
+                <h5>Contact Us</h5>
+                <address>
+                <p>Email: weatherapp@example.com</p>
+                <p>Phone: +1 (123) 456-7890</p>
+                </address>
+            </div>
+            <div class="col-md-4">
+                <h5>Follow Us</h5>
+                <ul class="list-unstyled">
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Instagram</a></li>
+                </ul>
+            </div>
+            </div>
+        </div>
+        </footer>
       
     </div>
   </template>

@@ -4,6 +4,7 @@ img {
     background-repeat: no-repeat; /* Prevent image from repeating */
 }
 
+
 /* Style the Carousel container */
 .carousel-container {
   position: relative; /* Relative positioning for the container */
