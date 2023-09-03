@@ -4,7 +4,7 @@
     <table class="table table-hover table-bordered table-striped table-light">
       <thead>
         <tr>
-          <th colspan="2"> <center>{{ selectedCity.city }} Accommodations</center>
+          <th colspan="2"> <center>Suggested Accommodations at {{ selectedCity.city }} </center>
         </th>
         </tr>
         <tr>

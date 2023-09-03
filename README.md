@@ -3,15 +3,22 @@ Weather App is a web application built using Laravel v10.21.0 (PHP framework) an
 
 This UI/UX code implementation is the best as it effectively utilizes the reusability of API components. Each of the six cities in Japan utilizes only one component for the Weather, Places (Accommodations), and Tourism (Tourist Spots) APIs, demonstrating the full potential of Vue.js. 
 
-At the home page, we can easily see the weather information, accomodations, and suggested tourist spots with the addresses at a glance. This makes it easy for foreign tourists to get an idea of where they want to go.
+At the home page, we can easily see the weather information, suggested accomodations, and tourist spots with the addresses at a glance. This makes it easy for foreign tourists to get an idea of where they want to go.
 
 ## Screenshots
-![Weather App Screenshot](screenshots/weather-app-screenshot-1.jpg)
-![Weather App Screenshot](screenshots/weather-app-screenshot-2.jpg)
+
+<p align="center">
+  <img src="screenshots/weather-app-screenshot-1.jpg" alt="Weather App Screenshot 1">
+</p>
+
+<p align="center">
+  <img src="screenshots/weather-app-screenshot-2.jpg" alt="Weather App Screenshot 2">
+</p>
+
 
 ## Getting Started
 To get started with the Weather App on your local machine, follow these steps:
-1. Clone the repository: git clone https://github.com/yourusername/weather-app.git
+1. Clone the repository: git clone https://github.com/TheDrei/weather-app.git
 2. Navigate to the project directory: cd weather-app
 3. Install PHP dependencies: composer install 
 4. Install JavaScript dependencies: npm install 
