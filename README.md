@@ -31,8 +31,10 @@ To get started with the Weather App on your local machine, follow these steps:
 2. Navigate to the project directory: cd weather-app
 3. Install PHP dependencies: composer install 
 4. Install JavaScript dependencies: npm install 
-5. Run the application: npm run dev.
-6. Access the App:Open your web browser and go to http://localhost/weather-app/public/ to access the Weather App.
+5. Install jQuery plugin: npm install jquery
+6. In case an Error 500 shows, try to clear the cache by running: php artisan cache:clear
+7. Run the application: npm run dev.
+8. Access the App:Open your web browser and go to http://localhost/weather-app/public/ to access the Weather App.
 
 ## Image Sources 
 Tokyo - <a href="https://www.freepik.com/free-photo/cherry-blossoms-spring-chureito-pagoda-fuji-mountain-japan_10824511.htm#query=tokyo&position=0&from_view=search&track=sph">Image by tawatchai07</a> on Freepik

@@ -13,12 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
-
-Route::get('/weather/{lat}/{lon}', 'WeatherController@getWeather');
-
 Route::get('/', function () {
     return view('home');
 });
