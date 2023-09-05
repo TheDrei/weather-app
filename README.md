@@ -17,11 +17,11 @@ At the home page, we can easily see the weather information, suggested accomodat
 ## Screenshots
 
 <p align="center">
-  <img src="screenshots/weather-app-screenshot-1.jpg" alt="Weather App Screenshot 1">
+  <img src="/screenshots/weather-app-screenshot-1.jpg" alt="Weather App Screenshot 1">
 </p>
 
 <p align="center">
-  <img src="screenshots/weather-app-screenshot-2.jpg" alt="Weather App Screenshot 2">
+  <img src="/screenshots/weather-app-screenshot-2.jpg" alt="Weather App Screenshot 2">
 </p>
 
 
