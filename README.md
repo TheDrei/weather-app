@@ -15,11 +15,12 @@ At the home page, we can easily see the weather information, suggested accomodat
 </ul>
 
 ## Screenshots
+![ScreenShot](/screenshots/weather-app-screenshot-1.jpg)
 
 <p align="center">
   <img src="/screenshots/weather-app-screenshot-1.jpg" alt="Weather App Screenshot 1">
 </p>
-![ScreenShot](/screenshots/weather-app-screenshot-1.jpg)
+
 
 <p align="center">
   <img src="/screenshots/weather-app-screenshot-2.jpg" alt="Weather App Screenshot 2">
